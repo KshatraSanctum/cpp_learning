@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+  int i,j,a,n;
+  cout<<"Enter the value of n:";
+  cin>>n;
+  for(i=1;i<=n;i++)
+  {
+    for(j=1;j<=i;j++)
+    {
+      char ch=64+i;
+      cout<<ch<<"";
+    }
+    cout<<endl;
+  }
+  return 0;
+}
